@@ -1,0 +1,232 @@
+$color-primary: #FFDA00;
+$color-text:black;
+
+/* HOME */
+.alinea {
+text-align: center;
+}
+
+.titel {
+text-align: center;
+color: $color-primary;
+margin-bottom: 20px;
+}
+
+#bos {
+width: 100%;
+margin-top: 20px;
+}
+
+.header {
+width: 100%;
+}
+
+/* KNOPPEN */
+.btn {
+margin-top: 10px;
+margin-bottom: 30px;  
+justify-content: center;
+display: block;
+margin: auto;
+color: $color-primary;
+border-color: $color-primary;
+width: 200px;
+}
+.btn:hover {
+    background-color: $color-primary;
+    color:white;
+    border-color: white;
+    text-decoration: none;
+}
+
+
+#googlemaps {
+margin-top: 20px;
+}
+
+#bevestigen {
+margin-top: 40px;
+}
+
+.form-control {
+margin-bottom: 20px;
+}
+
+.mx-auto d-block {
+width: 50%;
+}
+
+#tekst {
+text-align: center;
+margin-top: 50px;
+margin-bottom: 10px;
+}
+
+/* TITELS */
+h1 {
+margin-bottom: 50px;
+margin-top: 35px;
+}
+
+h2 {
+ color: $color-primary;
+}
+
+h3 {
+color: $color-primary;
+}
+
+.vetgeel{
+color: $color-primary;
+font-size: 16px;
+font-weight: bold;    
+}
+
+.card {
+    margin-bottom: 45px;
+    background-color: none;
+    border: none;
+        .card-titel {
+            text-align: center;
+            color: $color-primary;
+            }
+        
+        .card-header {
+            background-color: white;
+            border: none;
+        }
+        p {
+            text-align: center;
+        }
+}
+
+
+    
+.ons {
+width: 75%;
+margin-bottom: 30px;
+margin-top: 15px;
+}
+
+.overons {
+margin-top: 30px;
+}
+
+.betaalmogelijkheden {
+width: 130px; 
+
+}
+
+.form-check{
+margin-top: 50px;
+}
+
+/* PRODUCT */
+/* tabel */
+.table{
+color: $color-text;
+.line{
+text-decoration: line-through;
+}
+border-top-style: hidden;
+td{
+text-align: center;
+}
+th{
+color: $color-primary;
+font-size: 16px;
+font-weight: normal;
+text-align: center
+}
+.promo{
+background-color: black;
+td{
+color: white;
+}
+}
+}
+/* kalender */
+.date{
+input{
+width: 100%;
+margin-top: 10px;
+margin-bottom: 25px;
+}
+}
+/* steden */
+.form-control{
+background-color: white;
+outline: none !important;
+box-shadow: none !important;
+&:focus{
+border: 1px solid $color-primary !important;
+}
+} 
+/* temperatuur */
+#slidecontainer {
+width: 100%;
+p{
+display: inline-flex;
+padding-top: 10px;
+}
+.slider {
+-webkit-appearance: none;
+width: 70%;
+height: 2px;
+background: #d3d3d3;
+outline: none;
+opacity: 0.7;
+-webkit-transition: .2s;
+transition: opacity .2s;
+border-radius: 5px;
+margin-left: 15px;
+margin-right: 15px;
+&:hover{
+opacity: 3;
+}
+}
+}
+.slider::-webkit-slider-thumb {
+-webkit-appearance: none;
+appearance: none;
+width: 25px;
+height: 25px;
+background:  $color-primary;
+cursor: pointer;
+border-radius: 50%
+}
+
+.slider::-moz-range-thumb {
+width: 25px;
+height: 25px;
+background: $color-text;
+cursor: pointer;
+border-radius: 50%
+}
+
+/* WINKELWAGEN */
+
+.wijzig{
+padding-left: 15px;
+color: $color-text;
+&:hover{
+color:  $color-primary;
+}
+}
+
+.sunset{
+width:40%;  
+justify-content: center;
+display: block;
+margin-bottom: 15px;
+}
+
+.main-table {
+margin-bottom: 30px;
+}
+
+.tabelbevestigen {
+justify-content: center;
+display: block;
+margin: auto;
+}

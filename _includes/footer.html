@@ -1,5 +1,30 @@
-<nav class="navbar fixed-bottom navbar-light bg-light">
-{%- if site.show-style-guide %}
-    <a href="{{ site.baseurl }}{% link style-guide/index.md %}" class="btn">Style Guide</a>
+<footer>
+    {%- if site.show-style-guide %}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-4 ">
+            <h1 class="links">Contact</h1>
+            <p id="contactgegevens">iSolar<br>
+            Zonnelaan 29<br>
+            8300 Knokke<br>
+            België<br>
+            info@isolar.be<br>
+            +32442 73 42 9</p>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-md-4 center">
+            <h1 class="links">Volg ons</h1>
+            <a href="https://www.facebook.com" target="_blank" class="linksocialmedia">
+            <i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com" target="_blank" class="linksocialmedia">
+            <i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+        <div class="col-sm-6 col-lg-4 col-md-4" style="text-align: center">
+            <h1 class="links">Betaalwijze</h1>
+            <img class="betaalwijze" src="style/betaalmogelijkheden.png" align="center" alt="betaalwijze">
+        </div>
+    </div>
+</div>
 {%- endif %}
-</nav>
+</footer>
+<!-- Font awesome -->
+<script src="https://use.fontawesome.com/38a6010d41.js"></script>

@@ -1,0 +1,90 @@
+---
+layout   : default
+permalink: product
+# Custom Page Variables
+# ─────────────────────
+title: product
+---
+
+<!--prijs-->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="header">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                <h1>Verfijn hier je wensen</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-lg-4 col-md-4 col-xs-12">
+                <table class="table">
+                    <tr>
+                        <th>Aantal dagen</th>
+                        <th>Prijs</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>€9,99</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>€19,99</td>
+                    </tr>
+                    <tr class="promo">
+                        <td>3</td>
+                        <td><span class="line">€29,99</span> - €19,99</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>€39,99</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>€49,99</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-md-4 col-xs-12 date">
+                    <h3>Begindatum</h3>
+                    <input type="datetime-local" id="time-start">
+                    <h3>Einddatum</h3>
+                    <input type="datetime-local" id="time-end">
+            </div>
+            <div class="col-sm-6 col-lg-4 col-md-4 col-xs-12">
+                    <h3>Temperatuur</h3>
+                <div id="slidecontainer">
+                    <p>18°C</p><input type="range" min="18" max="30" value="1"
+                    class="slider" id="myRange"><p>30°C</p>
+                    <p>Temperatuur: <span id="demo"></span> °C</p>
+            </div>
+                <script>
+                    var slider = document.getElementById("myRange");
+                    var output = document.getElementById("demo");
+                    output.innerHTML = slider.value;
+                    slider.oninput = function() {
+                    output.innerHTML = this.value;
+                    }
+                </script>
+                    <h3>Plaats</h3>
+                    <select class="form-control">
+                        <option>Oostende</option>
+                        <option>Knokke</option>
+                        <option>Brugge</option>
+                        <option>Gent</option>
+                        <option>Antwerpen</option>
+                        <option>Brussel</option>
+                        <option>Hasselt</option>
+                        <option>Luik</option>
+                        <option>Namen</option>
+                        <option>Bergen</option>
+                        <option>Bastenaken</option>
+                        <option>Durbuy</option>
+                    </select>
+            </div>
+        </div>
+    </div>
+        <a href="winkelwagen.html" class="btn btn-outline-warning">Boek nu!</a>
+ </section>

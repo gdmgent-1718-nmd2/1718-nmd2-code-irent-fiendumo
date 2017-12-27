@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+$color-primary: #FFDA00;
+$color-secondary: #ffda00;
+$color-text:black;
+/* NAVIGATION BAR
+-------------------------------------------------- */
+body{
+font-family: Raleway;
+font-size: 14px;
+}
+.logo{
+height: 20px;
+margin-right: 30px;
+}
+#navigation {
+min-height: 70px !important;
+padding-top: 10px;
+}
+#navigation .navbar-brand {
+padding-right: 28px;
+width: 280px;
+border-right: 3px solid #ffffff1a;
+font-family: Oswald;
+font-style: italic;
+font-size: 26px !important;
+color: #5fcf80 !important;
+padding-left: 50px;
+}
+#navigation .navbar-brand .site-logo {
+float: left;
+margin-top: -10px;
+margin-right: 1rem;
+width: 250px;
+}
+#navigation #navbar {
+float: right !important;
+margin-right: -15px;
+font-family: Oswald;
+font-size: 16px;
+font-weight: 400;
+line-height: 38px;
+}
+.navbar-brand{
+margin-left: 30px;
+}
+.navbar-nav{
+margin: 0 auto;
+.nav-item{
+a{
+padding-left: 20px !important;
+padding-right: 20px !important;
+color: $color-text !important;
+text-transform: uppercase;
+}
+.active{
+color: $color-primary !important;
+}
+}
+}
+@media (max-width: 768px) {
+#navigation #navbar {
+float: none !important;
+margin-right: 0;
+}
+}
+#navigation #navbar .navbar-nav li a {
+color: #ffffff !important;
+}
+#navigation #navbar .navbar-nav li a:hover,
+#navigation #navbar .navbar-nav li a:focus {
+color: #ffffff !important;
+border-bottom: 2px solid #ffffff !important;
+}
+#navigation #navbar .navbar-nav .active a {
+color: #ffffff !important;
+border-bottom: 2px solid #ffffff !important;
+}
+#navigation #navbar .navbar-nav .dropdown-menu li a {
+color: #515151 !important;
+text-shadow: none !important;
+}
